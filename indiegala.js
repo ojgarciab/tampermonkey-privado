@@ -7,6 +7,7 @@
 // @match        https://www.indiegala.com/giveaways
 // @icon         https://www.google.com/s2/favicons?domain=indiegala.com
 // @grant        none
+// @run-at       document-end
 // @downloadURL  https://ojgarciab.github.io/tampermonkey-privado/indiegala.js
 // ==/UserScript==
 

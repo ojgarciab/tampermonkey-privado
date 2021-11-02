@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Filtro de Indiegala
 // @namespace    http://linaresdigital.com/
-// @version      0.2
+// @version      0.3
 // @description  Filtro de regalos para indiegala
 // @author       Oscar Garcia
 // @match        https://www.indiegala.com/giveaways

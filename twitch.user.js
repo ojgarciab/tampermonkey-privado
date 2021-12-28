@@ -19,6 +19,7 @@
 (function() {
     'use strict';
 
+    console.log("Instalado");
     setInterval(() => {
         let boton = document.querySelector('button[aria-label="Reclamar bonificación"]');
         if (boton !== null) {

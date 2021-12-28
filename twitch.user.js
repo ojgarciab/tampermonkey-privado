@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Puntos de Twitch
 // @namespace    http://linaresdigital.com/
-// @version      0.1
+// @version      0.2
 // @description  Obtención de puntos de Twitch
 // @author       Oscar Garcia
-// @match        https://www.indiegala.com/giveaways
+// @match        https://www.twitch.tv/*
 // @exclude      https://www.twitch.tv/friends*
 // @exclude      https://www.twitch.tv/wallet*
 // @exclude      https://www.twitch.tv/subscriptions*

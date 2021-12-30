@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Puntos de Twitch
 // @namespace    http://linaresdigital.com/
-// @version      0.2
+// @version      0.3
 // @description  Obtención de puntos de Twitch
 // @author       Oscar Garcia
 // @match        https://www.twitch.tv/*
@@ -19,11 +19,17 @@
 (function() {
     'use strict';
 
+    let pulsaciones = 0, borrar = 0;
     console.log("Instalado");
     setInterval(() => {
+        if (borrar++ > 10 ) {
+            borrar = 0;
+            console.clear();
+            console.log(`Llevas ${pulsaciones} pulsaciones`);
+        }
         let boton = document.querySelector('button[aria-label="Reclamar bonificación"]');
         if (boton !== null) {
-            console.log("Pulsado");
+            console.log(`Pulsado (${pulsaciones})`);
             boton.click();
         }
     }, 1000);
